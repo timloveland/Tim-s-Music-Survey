@@ -1,0 +1,81 @@
+body {
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url('images/band.JPG');
+  color: #f5f6f7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+h1, p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-form {
+  background-color: #1b1b32;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  margin: 25px 0px;
+}
+
+.top, .concerts, .musiclover, .genres, .comments {
+  margin: 25px 15px;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+select {
+  margin: 0 0 0 15px;
+  min-height: 1em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.0rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 200px;
+  color: white;
+}

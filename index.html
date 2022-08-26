@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-form">
+    <h1 id="title">Tim's Music Survey</h1>
+    <p id="description">What's your favorite music?</p>
+     <form id="survey-form" action="https://register-demo.freecodecamp.org">
+      <fieldset>
+        <div class="top">
+        <label id="name-label">Enter your name: <input type="text" id="name" name="name" placeholder="John Doe" required>
+         </label>
+         <label id="email-label">Enter your email: <input type="email" id="email" name="email" placeholder="example@yahoo.com" required></label>
+        <label id="number-label">Enter your age: <input type="number" id="number" name="age" min="12" max="120" placeholder="12"></label>
+        </div>
+        <hr>
+        <div class="concerts">
+        <label>How many concerts have you been to?
+          <select id="dropdown">
+            <option value="">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5+</option>
+          </select>
+        </label>
+        </div>
+        <div class="musiclover">
+        <label>What type of music lover are you?</label>
+        <label><input type="radio" value="listner" name="musiclover" class="inline"> Listener</label>
+        <label><input type="radio" value="performer" name="musiclover" class="inline"> Performer</label>
+        </div>
+        <div class="genres">
+        <label>What are some of your favorite genres?</label>
+        <label><input type="checkbox" name="rock" value="rock" class="inline"> Rock</label>
+        <label><input type="checkbox" name="metal" value="metal" class="inline"> Metal</label>
+        <label><input type="checkbox" name="punk" value="punk" class="inline"> Punk</label>
+        <label><input type="checkbox" name="dance" value="dance" class="inline"> Dance</label>
+        <label><input type="checkbox" name="hiphop" value="hiphop" class="inline"> Hip-Hop</label>
+        <label><input type="checkbox" name="EDM" value="EDM" class="inline"> EDM</label>
+        <label><input type="checkbox" name="classical" value="classical" class="inline"> Classical</label>
+        <label><input type="checkbox" name="ambient" value="ambient" class="inline"> Ambient</label>
+        <label><input type="checkbox" name="jazz" value="jazz" class="inline"> Jazz</label>
+        <label><input type="checkbox" name="acoustic" value="acoustic" class="inline"> Acoustic</label>
+        </div>
+        <div class="comments">
+        <label>Additional Comments
+          <textarea name="comments" rows="3" cols="30" placeholder="Do you play an instrument?"></textarea></label>
+        </div>
+       </fieldset>
+       <input type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
