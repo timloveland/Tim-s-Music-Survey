@@ -47,6 +47,11 @@ hr {
   margin: 25px 15px;
 }
 
+.checkbox-inline {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
 input,
 textarea {
   margin: 10px 0 0 0;
